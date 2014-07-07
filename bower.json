@@ -10,7 +10,6 @@
     "homepage": "http://www.hyperweb2.com",
     "version": "0.0.2",
     "dependencies": {
-	    "hw2-modules" : "./modules/"
     },
     "private": true
 }
