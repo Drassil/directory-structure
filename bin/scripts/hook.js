@@ -13,7 +13,7 @@ for (var i = 0; i < endpoints.length; i++) {
 
     var basePath=process.cwd();
     var modulePath = basePath + "/modules/" + endpoints[i];
-    var postScriptFile = modulePath +"/bin/scripts/installer_hook.js"
+    var postScriptFile = modulePath +"/.hw2/installer_hook.js"
 
     fs.exists(postScriptFile, function(exists) {
         if (exists) {
