@@ -13,7 +13,7 @@ var basePath=process.cwd();
 for (var i = 0; i < endpoints.length; i++) {
 
     var modulePath = basePath + "/modules/" + endpoints[i];
-    var postScriptFile = modulePath +"/.hw2/installer_hook.js"
+    var postScriptFile = modulePath +"/_hw2/installer_hook.js"
 
     if (fs.existsSync(postScriptFile)) {
             require(postScriptFile)(type,basePath,modulePath);
