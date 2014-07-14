@@ -1,6 +1,6 @@
 {
   "directory" : "./modules",
     "scripts": {
-        "postinstall": "node bin/scripts/hook.js post %"
+        "postinstall": "node bin/scripts/hook.js postinstall %"
     }
 }

@@ -16,6 +16,6 @@ for (var i = 0; i < endpoints.length; i++) {
     var postScriptFile = modulePath +"/_hw2/installer_hook.js"
 
     if (fs.existsSync(postScriptFile)) {
-            require(postScriptFile)(type,basePath,modulePath);
+            require(postScriptFile)(event,basePath,modulePath);
     };
 }
