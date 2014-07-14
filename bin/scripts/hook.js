@@ -5,7 +5,7 @@
 
 var endpoints = process.argv;
 endpoints.splice(0, 2); // remove the first two parameters
-var type = endpoints.splice(0, 1); // type of event
+var event = endpoints.splice(0, 1); // type of event
 var fs = require("fs");
 
 var basePath=process.cwd();
