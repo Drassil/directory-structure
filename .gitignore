@@ -79,7 +79,8 @@ local.properties
 #
 
 .htaccess
-
+!modules/index.html
+modules/*
 
 
 
