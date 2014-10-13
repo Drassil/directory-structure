@@ -1,7 +1,7 @@
 Directory Structure
 -------------------
 
-This folder contains the ideal directory structure for each kind application / project.
+This folder contains the ideal directory structure for almost **all kind** application / project.
 
  - bin ( contains binaries/scripts for the application )
  - configs ( application configuration files )
