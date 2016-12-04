@@ -6,6 +6,8 @@ It has been freely inspired by linux directory structure.
 Of course, depending on the purposes, some directories can be avoided.
 
  - bin ( contains binaries/scripts for this context/system )
+ - build ( if you're working on a project that must be built, then this is the directory )
+     - dist ( sometime the dist folder must be created when you need a second level of compilation, bin folder could be used too ) 
  - configs ( sytem/application configuration files )
  - data
      - var ( all volatile data )
