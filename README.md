@@ -82,13 +82,15 @@ First version of this standard was limited to offer directories where store file
  - modules: A module can be everything you need to compose a "system". Such as an addon,plugin,framework etc.
             Normally this folder should be handled by a package manager or __git submodule__.
 
- - dep: Static dependencies, instead of modules they are pre-installed (eventually can be handled by __git subtree__).
+ - deps: Static dependencies, instead of modules they are pre-installed (eventually can be handled by __git subtree__).
         If you don't need this kind of separation you can use modules folder for both essential dependencies and addons.
+        
+Note: plural form of folder above is used to emphasize the modular vs monolithic architecture
 
 
-### Sub Contexts:
+### Sub Environments:
 
- - sct: subcontext folder.
+ - env: container of sub environments
      - <name of your system/app> ( this folder must be created when you need a second level of compilation, bin folder could be used too )
      - sys: could be used and standardized by an operating system to handle directories related to hardware devices and
         - boot

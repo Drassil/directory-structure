@@ -60,7 +60,7 @@ e.g., websites, web services, server applications, LAN utilities
  - apps
  - modules
  - dep
- - sct
+ - env
      - sys
         - boot
         - mnt
