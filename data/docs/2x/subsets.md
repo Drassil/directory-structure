@@ -30,7 +30,7 @@ e.g., python apps, nodejs/php console apps etc.
 - lib
 - src
 - modules
-- dep
+- deps
 - data
 - conf
 - var
@@ -44,7 +44,7 @@ e.g., websites, web services, server applications, LAN utilities
 - lib
 - src
 - modules
-- dep
+- deps
 - data
 - conf
 - var
@@ -59,7 +59,7 @@ e.g., websites, web services, server applications, LAN utilities
  - srv
  - apps
  - modules
- - dep
+ - deps
  - env
      - sys
         - boot
