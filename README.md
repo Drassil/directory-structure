@@ -1,4 +1,4 @@
-Directory Structure 2.0.0 ( DIRS 2 )
+Directory Structure 2.0.1 ( DIRS 2 )
 -------------------
 
 This folder contains the ideal directory structure for each kind of system, app or project.
