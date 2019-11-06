@@ -57,6 +57,8 @@ Version 2 instead adds multiple specifications to improve modular software desig
      - tests
      - app
      - [...]
+ NOTE: src folder should not re-use the directory-structure standards, but in some cases you must put conf/ and data/
+ folders under src because of compiling tools limitations.
 
  - data: static data
      - database
