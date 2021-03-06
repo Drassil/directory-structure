@@ -81,13 +81,15 @@ Note: plural form of folder above is used to emphasize the modular purpose.
 ### Sub Environments:
 
  - env: container of sub environments
-     - <name of your system/app> : you could create an extra environment for your app creating extra levels of awareness.
-     - sys: could be used and standardized by an operating system to handle directories related to hardware devices and
-        - boot
-        - mnt
-        - [...]
-     - users: folder that can be used by user for its workspace files or second level context
-     - [...]
+
+   - <name of your system/app> : you could create an extra environment for your app creating extra levels of awareness.
+
+   - users: folder that can be used by user for its workspace files or second level context
+
+   - sys: could be used and standardized by an operating system to handle directories related to hardware devices etc.
+   
+   - [...]
+
      
     
 ## Subset examples
