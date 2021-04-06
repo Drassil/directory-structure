@@ -20,10 +20,10 @@ Feel free to use our issue tracker to send suggestions and opinions.
    Not following this rules can probably cause a bad and no modular software architecture.
 
  - Allocation: there are 3 kinds of directory/file allocation
-    - Static: contains files that should change only after a system update. In some case it's set with read-only permissions.
-    - Variable: subdirectories and files that are writeable and created by the system at runtime.
-    - Mixed: used by directories with both static and variable content.
-             For example in conf folder you can have the default read-only configuration file (static) and the writeable version (variable)
+     
+    1. Static: contains files that should change only after a system update. In some case it's set with read-only permissions.
+    2. Variable: subdirectories and files that are writeable and created by the system at runtime.
+    3. Mixed: used by directories with both static and variable content. For example in conf folder you can have the default read-only configuration file (static) and the writeable version (variable)
 
  - Structure: Childs directories of components with a quadrangle shape (pictrue above) can eventually re-use this structure standards.
    Components with Disk shape instead have a more specific structure.
